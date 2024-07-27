@@ -50,9 +50,9 @@
           <div class="registerBtn" @click="changeToLogin" v-if="isRegister">
             已有账号？点此登录
           </div>
-          <div class="registerBtn" @click="changeToRegister" v-else>
-            没有账号？点此注册
-          </div>
+<!--          <div class="registerBtn" @click="changeToRegister" v-else>-->
+<!--            没有账号？点此注册-->
+<!--          </div>-->
         </div>
       </div>
     </div>
