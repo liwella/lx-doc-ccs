@@ -13,11 +13,11 @@ export default defineConfig({
     port: 9090,
     proxy: {
       '^/api': {
-        target: 'http://localhost:9222/',
+        target: 'http://61.183.42.66:19545/',
         changeOrigin: true
       },
       '^/static': {
-        target: 'http://localhost:9222/',
+        target: 'http://61.183.42.66:19545/',
         changeOrigin: true
       }
     }
