@@ -4,15 +4,15 @@ export default {
   // logo
   logo: logoUrl,
   // 名称
-  name: 'mind-tree',
+  name: '印象空间',
   // 可创建的文件类型
   createTypeList: [
-    // {
-    //   name: '白板',
-    //   value: 'whiteboard',
-    //   icon: 'icon-baiban',
-    //   color: ''
-    // },
+    {
+      name: '白板',
+      value: 'whiteboard',
+      icon: 'icon-baiban',
+      color: ''
+    },
     {
       name: '思维导图',
       value: 'mindMap',
@@ -31,36 +31,36 @@ export default {
     //   icon: 'icon-markdown',
     //   color: '#ff4663'
     // },
-    // {
-    //   name: '文档',
-    //   value: 'doc',
-    //   icon: 'icon-shiyongwendang',
-    //   color: '#6674a6'
-    // },
-    // {
-    //   name: '电子表格',
-    //   value: 'sheet',
-    //   icon: 'icon-biaoge',
-    //   color: '#68d3c9'
-    // },
-    // {
-    //   name: '幻灯片',
-    //   value: 'ppt',
-    //   icon: 'icon-preview24',
-    //   color: '#f17b77'
-    // },
+    {
+      name: '文档',
+      value: 'doc',
+      icon: 'icon-shiyongwendang',
+      color: '#6674a6'
+    },
+    {
+      name: '电子表格',
+      value: 'sheet',
+      icon: 'icon-biaoge',
+      color: '#68d3c9'
+    },
+    {
+      name: '幻灯片',
+      value: 'ppt',
+      icon: 'icon-preview24',
+      color: '#f17b77'
+    },
     // {
     //   name: '笔记',
     //   value: 'note',
     //   icon: 'icon-jibiji',
     //   color: '#f17b77'
     // },
-    // {
-    //   name: 'BPMN',
-    //   value: 'bpmn',
-    //   icon: 'icon-icon',
-    //   color: '#4eaef0'
-    // },
+    {
+      name: 'BPMN',
+      value: 'bpmn',
+      icon: 'icon-icon',
+      color: '#4eaef0'
+    },
     // {
     //   name: '简历',
     //   value: 'resume',
